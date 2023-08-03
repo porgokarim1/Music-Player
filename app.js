@@ -36,7 +36,7 @@ let track_list = [
   {
     name: "GIRLFRIEND",
     artist: "Ruger",
-    image: "images/ruger.jpg",
+    image: "images/Ruger.jpg",
     path: "musics/Ruger_Girlfriend.mp3",
   },
   {
