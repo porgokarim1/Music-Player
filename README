@@ -1,0 +1,41 @@
+Music-Player
+
+This is a simple music player application that allows you to play, pause, skip to the next or previous tracks, adjust the volume, and seek to specific positions in the track. The player displays the track name, artist, and album art for the currently playing song. It supports multiple tracks, and you can easily customize the track list by adding or modifying entries in the track_list variable.
+
+Instructions:
+
+Clone or download the repository to your local machine.
+Open the index.html file in your web browser to use the music player.
+How to Use:
+
+Click on the "play" button (a play icon) to start playing the current track.
+Click on the "pause" button (a pause icon) to pause the currently playing track.
+Click on the "previous" button (a backward arrow icon) to play the previous track in the track list.
+Click on the "next" button (a forward arrow icon) to play the next track in the track list.
+Drag the seek slider to adjust the playback position of the current track.
+Drag the volume slider to adjust the volume of the player.
+Features:
+
+Play, pause, and control music playback.
+Display track information including track name, artist, and album art.
+Seek slider to change the playback position of the track.
+Volume slider to adjust the player's volume.
+Automatically moves to the next track when the current track finishes.
+Customization:
+To add or modify tracks in the player, update the track_list variable in the app.js file. Each entry in the track_list array should contain the following properties:
+
+name: The name of the track.
+artist: The artist or musician of the track.
+image: The path to the album art image for the track.
+path: The path to the audio file (mp3) of the track.
+Feel free to customize the CSS in the style.css file to change the appearance of the player to suit your preferences.
+
+Note:
+
+Make sure to have a stable internet connection when using the player, as it loads some resources from external URLs.
+The player is designed for desktop and may not be optimized for mobile devices.
+Credits:
+The player is created using HTML, CSS, and JavaScript. It uses the Font Awesome icons library for the play, pause, next, and previous buttons. Also credit to *CODEWITHRANDOW* for their open source codes.
+
+License:
+This project is under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
